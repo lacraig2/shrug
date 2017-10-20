@@ -1,0 +1,10 @@
+Package: shrug
+Version: 0.1-1
+Architecture: all
+Maintainer: Name,
+Installed-Size: 11
+Depends: python3:any (>= 3.2~), python:any
+Section: utils
+Priority: optional
+Description: shrug
+ prints shrug on screen

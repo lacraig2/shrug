@@ -1,0 +1,34 @@
+Description: updated for any python
+    Using env variable instead of /usr/bin/python
+ .
+ shrug (0.1-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Luke Craig <luke@lukecraig.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- shrug-0.1.orig/shrug
++++ shrug-0.1/shrug
+@@ -1,7 +1,7 @@
+-#By: Luke Craig 10/20/2017
+-
+-#!/usr/bin/python
++#!/usr/bin/env python
+ # -*- coding: utf-8 -*-
++# By: Luke Craig 10/20/2017
++
+ from sys import version_info
+ if version_info > (3,0):
+     print("¯\_(ツ)_/¯")

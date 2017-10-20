@@ -1,0 +1,13 @@
+Source: shrug
+Section: utils
+Priority: optional
+Maintainer: Name, 
+Build-Depends: debhelper (>= 9), python3
+Standards-Version: 3.9.5
+X-Python3-Version: >= 3.2
+
+Package: shrug
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: shrug
+ prints shrug on screen
