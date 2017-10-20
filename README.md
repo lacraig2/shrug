@@ -1,2 +1,2 @@
 # shrug
-Prints shrug on command line.
+Prints UTF-8 shrug on command line.

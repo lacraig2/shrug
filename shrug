@@ -1,0 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+from sys import version_info
+if version_info > (3,0):
+    print("¯\_(ツ)_/¯")
+else:
+    print(u"\u00af\_(\u30c4)_/\u00af".encode('utf-8'))
